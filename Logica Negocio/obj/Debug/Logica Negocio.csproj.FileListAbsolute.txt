@@ -1,0 +1,14 @@
+C:\Users\ALUMNO.a403-02\source\repos\WebService\Logica Negocio\bin\Debug\Logica Negocio.dll
+C:\Users\ALUMNO.a403-02\source\repos\WebService\Logica Negocio\bin\Debug\Logica Negocio.pdb
+C:\Users\ALUMNO.a403-02\source\repos\WebService\Logica Negocio\bin\Debug\DAL.dll
+C:\Users\ALUMNO.a403-02\source\repos\WebService\Logica Negocio\bin\Debug\Entidades.dll
+C:\Users\ALUMNO.a403-02\source\repos\WebService\Logica Negocio\bin\Debug\DAL.pdb
+C:\Users\ALUMNO.a403-02\source\repos\WebService\Logica Negocio\bin\Debug\Entidades.pdb
+C:\Users\ALUMNO.a403-02\source\repos\WebService\Logica Negocio\obj\Debug\Logica Negocio.csproj.AssemblyReference.cache
+C:\Users\ALUMNO.a403-02\source\repos\WebService\Logica Negocio\obj\Debug\Logica Negocio.csproj.CoreCompileInputs.cache
+C:\Users\ALUMNO.a403-02\source\repos\WebService\Logica Negocio\obj\Debug\Logica Negocio.csproj.CopyComplete
+C:\Users\ALUMNO.a403-02\source\repos\WebService\Logica Negocio\obj\Debug\Logica Negocio.dll
+C:\Users\ALUMNO.a403-02\source\repos\WebService\Logica Negocio\obj\Debug\Logica Negocio.pdb
+C:\Users\ALUMNO.a403-02\source\repos\WebService\Logica Negocio\bin\Debug\EntityFramework.dll
+C:\Users\ALUMNO.a403-02\source\repos\WebService\Logica Negocio\bin\Debug\DAL.dll.config
+C:\Users\ALUMNO.a403-02\source\repos\WebService\Logica Negocio\bin\Debug\EntityFramework.xml

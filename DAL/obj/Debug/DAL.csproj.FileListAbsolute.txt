@@ -1,0 +1,14 @@
+C:\Users\ALUMNO.a403-02\source\repos\WebService\DAL\bin\Debug\DAL.dll
+C:\Users\ALUMNO.a403-02\source\repos\WebService\DAL\bin\Debug\DAL.pdb
+C:\Users\ALUMNO.a403-02\source\repos\WebService\DAL\bin\Debug\Entidades.dll
+C:\Users\ALUMNO.a403-02\source\repos\WebService\DAL\bin\Debug\Entidades.pdb
+C:\Users\ALUMNO.a403-02\source\repos\WebService\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\ALUMNO.a403-02\source\repos\WebService\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\ALUMNO.a403-02\source\repos\WebService\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\ALUMNO.a403-02\source\repos\WebService\DAL\obj\Debug\DAL.dll
+C:\Users\ALUMNO.a403-02\source\repos\WebService\DAL\obj\Debug\DAL.pdb
+C:\Users\ALUMNO.a403-02\source\repos\WebService\DAL\bin\Debug\DAL.dll.config
+C:\Users\ALUMNO.a403-02\source\repos\WebService\DAL\bin\Debug\EntityFramework.dll
+C:\Users\ALUMNO.a403-02\source\repos\WebService\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ALUMNO.a403-02\source\repos\WebService\DAL\bin\Debug\EntityFramework.xml
+C:\Users\ALUMNO.a403-02\source\repos\WebService\DAL\bin\Debug\EntityFramework.SqlServer.xml
