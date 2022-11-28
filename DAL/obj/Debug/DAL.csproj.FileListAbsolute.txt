@@ -12,3 +12,17 @@ C:\Users\ALUMNO.a403-02\source\repos\WebService\DAL\bin\Debug\EntityFramework.dl
 C:\Users\ALUMNO.a403-02\source\repos\WebService\DAL\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\ALUMNO.a403-02\source\repos\WebService\DAL\bin\Debug\EntityFramework.xml
 C:\Users\ALUMNO.a403-02\source\repos\WebService\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\JONATHAN\source\repos\ProyectoTecnologiasEmergentes\DAL\bin\Debug\DAL.dll.config
+C:\Users\JONATHAN\source\repos\ProyectoTecnologiasEmergentes\DAL\bin\Debug\DAL.dll
+C:\Users\JONATHAN\source\repos\ProyectoTecnologiasEmergentes\DAL\bin\Debug\DAL.pdb
+C:\Users\JONATHAN\source\repos\ProyectoTecnologiasEmergentes\DAL\bin\Debug\Entidades.dll
+C:\Users\JONATHAN\source\repos\ProyectoTecnologiasEmergentes\DAL\bin\Debug\EntityFramework.dll
+C:\Users\JONATHAN\source\repos\ProyectoTecnologiasEmergentes\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\JONATHAN\source\repos\ProyectoTecnologiasEmergentes\DAL\bin\Debug\Entidades.pdb
+C:\Users\JONATHAN\source\repos\ProyectoTecnologiasEmergentes\DAL\bin\Debug\EntityFramework.xml
+C:\Users\JONATHAN\source\repos\ProyectoTecnologiasEmergentes\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\JONATHAN\source\repos\ProyectoTecnologiasEmergentes\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\JONATHAN\source\repos\ProyectoTecnologiasEmergentes\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\JONATHAN\source\repos\ProyectoTecnologiasEmergentes\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\JONATHAN\source\repos\ProyectoTecnologiasEmergentes\DAL\obj\Debug\DAL.dll
+C:\Users\JONATHAN\source\repos\ProyectoTecnologiasEmergentes\DAL\obj\Debug\DAL.pdb

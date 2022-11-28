@@ -1,0 +1,9 @@
+C:\Users\JONATHAN\source\repos\ProyectoTecnologiasEmergentes\Prueba\bin\Debug\netcoreapp3.1\Prueba.deps.json
+C:\Users\JONATHAN\source\repos\ProyectoTecnologiasEmergentes\Prueba\bin\Debug\netcoreapp3.1\Prueba.dll
+C:\Users\JONATHAN\source\repos\ProyectoTecnologiasEmergentes\Prueba\bin\Debug\netcoreapp3.1\Prueba.pdb
+C:\Users\JONATHAN\source\repos\ProyectoTecnologiasEmergentes\Prueba\obj\Debug\netcoreapp3.1\Prueba.csproj.AssemblyReference.cache
+C:\Users\JONATHAN\source\repos\ProyectoTecnologiasEmergentes\Prueba\obj\Debug\netcoreapp3.1\Prueba.AssemblyInfoInputs.cache
+C:\Users\JONATHAN\source\repos\ProyectoTecnologiasEmergentes\Prueba\obj\Debug\netcoreapp3.1\Prueba.AssemblyInfo.cs
+C:\Users\JONATHAN\source\repos\ProyectoTecnologiasEmergentes\Prueba\obj\Debug\netcoreapp3.1\Prueba.csproj.CoreCompileInputs.cache
+C:\Users\JONATHAN\source\repos\ProyectoTecnologiasEmergentes\Prueba\obj\Debug\netcoreapp3.1\Prueba.dll
+C:\Users\JONATHAN\source\repos\ProyectoTecnologiasEmergentes\Prueba\obj\Debug\netcoreapp3.1\Prueba.pdb

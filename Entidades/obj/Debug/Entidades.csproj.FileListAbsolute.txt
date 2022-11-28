@@ -4,3 +4,9 @@ C:\Users\ALUMNO.a403-02\source\repos\WebService\Entidades\obj\Debug\Entidades.cs
 C:\Users\ALUMNO.a403-02\source\repos\WebService\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\ALUMNO.a403-02\source\repos\WebService\Entidades\obj\Debug\Entidades.dll
 C:\Users\ALUMNO.a403-02\source\repos\WebService\Entidades\obj\Debug\Entidades.pdb
+C:\Users\JONATHAN\source\repos\ProyectoTecnologiasEmergentes\Entidades\bin\Debug\Entidades.dll
+C:\Users\JONATHAN\source\repos\ProyectoTecnologiasEmergentes\Entidades\bin\Debug\Entidades.pdb
+C:\Users\JONATHAN\source\repos\ProyectoTecnologiasEmergentes\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\JONATHAN\source\repos\ProyectoTecnologiasEmergentes\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\JONATHAN\source\repos\ProyectoTecnologiasEmergentes\Entidades\obj\Debug\Entidades.dll
+C:\Users\JONATHAN\source\repos\ProyectoTecnologiasEmergentes\Entidades\obj\Debug\Entidades.pdb
