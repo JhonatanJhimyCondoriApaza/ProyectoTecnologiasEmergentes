@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\DAL"
   ],
-  "SelectedNode": "\\WebService.sln",
+  "SelectedNode": "\\DAL\\CategoriesManager.cs",
   "PreviewInSolutionExplorer": false
 }
