@@ -1,12 +1,21 @@
-window.addEventListener("DOMContentLoaded",function() { 
-    var color_RGB = randomRGB();    
+$(document).ready(function(){
+    var color_RGB = randomRGB();
     update(color_RGB);
+    $.get("http://ipinfo.io",function(response){
+        console.log(response.ip)
+    },"jsonp");
 });
-
 
 let state = 0;
 let letters = '';
 let background = new Array();
+let weizhi = '';
+
+let riqi = new Date();
+riqi = new Date(riqi.getTime() - 3000000);
+let last_form_from_riqi = riqi.getFullYear().toString()+"-"+((riqi.getMonth()+1).toString().length==2?(riqi.getMonth()+1).toString():"0"+(riqi.getMonth()+1).toString())+"-"+(riqi.getDate().toString().length==2?riqi.getDate().toString():"0"+riqi.getDate().toString())+" "+(riqi.getHours().toString().length==2?riqi.getHours().toString():"0"+riqi.getHours().toString())+":"+((parseInt(riqi.getMinutes()/5)*5).toString().length==2?(parseInt(riqi.getMinutes()/5)*5).toString():"0"+(parseInt(riqi.getMinutes()/5)*5).toString())+":00";
+
+
 const dislike = document.getElementById('dk');
 const like = document.getElementById('lk');
 
@@ -22,7 +31,7 @@ like.addEventListener('click', function(){
 
 
 function send_dataToWCF(){
-    alert(background+'\n'+letters+'\n'+state);
+    alert(background+'\n'+letters+'\n'+state+'\n'+weizhi+'\n'+riqi);
 }
 
 

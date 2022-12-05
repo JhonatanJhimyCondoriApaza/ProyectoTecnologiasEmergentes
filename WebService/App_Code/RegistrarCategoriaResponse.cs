@@ -13,7 +13,8 @@ using System.Web;
 public class RegistrarCategoriaResponse:ResponseDTO
 {
     public RegistrarCategoriaResponse(){ }
-    
+
     [DataMember]
     public int IdCategory { get; set; }
+    
 }

@@ -17,18 +17,22 @@ namespace Logica_Negocio
         /// <param name="image1"></param>
         /// <returns>Devulve el identificador de la persona</returns>
         /// 
-        public byte[] defaultValue = new byte[] { 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20 };
+        
+        //public byte[] defaultValue = new byte[] { 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20 };
 
         //ESTOY OBVIANDO EL VALOR DE LA IMAGEN PORQUE POR DEFECTO ESTOY ASISGNANDO 
-        public int RegistraCategory(string CategoryName1, string Descrition1) {
+        public int RegistraCategory(string background_input, string letter_input, bool enjoyed_input, string cstml_input, DateTime cstmd_input) {
+            
             CategoriesManager categoriesManager = new CategoriesManager();
-            Categories categories = new Categories
+            liketable customer_like = new liketable
             {
-                CategoryName = CategoryName1,
-                Description = Descrition1,
-                Picture = defaultValue
+                backgroundColor = background_input,
+                lettersColor = letter_input,
+                enjoyed = enjoyed_input,
+                customer_location = cstml_input,
+                customer_date = cstmd_input
             };
-            return categoriesManager.InsertarCategoria(categories);
+            return categoriesManager.InsertarCategoria(customer_like);
         }
     }
 }

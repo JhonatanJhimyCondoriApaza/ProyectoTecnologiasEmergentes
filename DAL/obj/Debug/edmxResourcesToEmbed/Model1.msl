@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="likedatabaseModelStoreContainer" CdmEntityContainer="likedatabaseEntities">
+    <EntitySetMapping Name="liketable">
+      <EntityTypeMapping TypeName="likedatabaseModel.liketable">
+        <MappingFragment StoreEntitySet="liketable">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="backgroundColor" ColumnName="backgroundColor" />
+          <ScalarProperty Name="lettersColor" ColumnName="lettersColor" />
+          <ScalarProperty Name="enjoyed" ColumnName="enjoyed" />
+          <ScalarProperty Name="customer_location" ColumnName="customer_location" />
+          <ScalarProperty Name="customer_date" ColumnName="customer_date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

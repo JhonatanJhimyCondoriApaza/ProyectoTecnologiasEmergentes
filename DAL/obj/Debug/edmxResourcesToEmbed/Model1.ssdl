@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="likedatabaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="liketable">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="backgroundColor" Type="varchar" MaxLength="150" />
+    <Property Name="lettersColor" Type="varchar" MaxLength="5" />
+    <Property Name="enjoyed" Type="bit" />
+    <Property Name="customer_location" Type="varchar" MaxLength="200" />
+    <Property Name="customer_date" Type="date" />
+  </EntityType>
+  <EntityContainer Name="likedatabaseModelStoreContainer">
+    <EntitySet Name="liketable" EntityType="Self.liketable" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

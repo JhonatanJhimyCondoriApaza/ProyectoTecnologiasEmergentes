@@ -15,7 +15,7 @@ public class Service : IService
 	public RegistrarCategoriaResponse RegistrarCategoria(RegistrarCategoriaRequest ObjRequest) 
 	{
 		Services srv = new Services();
-		int valReturn = srv.RegistraCategory(ObjRequest.CatName, ObjRequest.Desc);
+		int valReturn = srv.RegistraCategory(ObjRequest.bkg, ObjRequest.ltr, ObjRequest.nj, ObjRequest.csm_l, ObjRequest.csm_d);
 		return new RegistrarCategoriaResponse
 		{
 			error_code = 0,

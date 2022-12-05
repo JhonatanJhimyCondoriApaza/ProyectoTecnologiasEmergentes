@@ -14,23 +14,27 @@ namespace DAL
         /// </summary>
         /// <param name="ObjCategorie"></param>
         /// <returns>Devuelve el identificador del objeto Category</returns>
-        public int InsertarCategoria(Categories ObjCategorie)
+        public int InsertarCategoria(liketable Objcustomer_like)
         {
             int maximo = 0;
             
-            SistemaVentasRopaEntities BD = new SistemaVentasRopaEntities();
+            likedatabaseEntities BD = new likedatabaseEntities();
 
             try
             {
-               maximo = BD.Categories.Max(x => x.CategoryID);
+               maximo = BD.liketable.Max(x => x.id);
             } catch { }
 
-            
-            ObjCategorie.CategoryID = maximo + 1;
-            BD.Categories.Add(ObjCategorie); // LO GUARDA EN EL CACHE.
+
+            Objcustomer_like.id = maximo + 1;
+
+            DateTime formated_hour = Convert.ToDateTime(Objcustomer_like.customer_date);
+            string sqlFormattedDate = formated_hour.ToString("yyyy-MM-dd HH:mm:ss");
+            Objcustomer_like.customer_date = Convert.ToDateTime(sqlFormattedDate);
+            BD.liketable.Add(Objcustomer_like); // LO GUARDA EN EL CACHE.
             BD.SaveChanges(); // AQUI SI GUARDA EN LA BASE DE DATOS.
 
-            return ObjCategorie.CategoryID;
+            return Objcustomer_like.id;
         }
     }
 }

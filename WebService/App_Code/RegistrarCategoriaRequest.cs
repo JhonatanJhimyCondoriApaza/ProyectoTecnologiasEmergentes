@@ -15,9 +15,16 @@ public class RegistrarCategoriaRequest:RequestDTO
 {
     //AQUI INVOCAMOS TODOS LOS DATOS DE ENTRADA
 
-    [DataMember]
-    public string CatName { get; set; }
-    [DataMember]
-    public string Desc { get; set; }
     
+    [DataMember]
+    public string bkg { get; set; }
+    [DataMember]
+    public string ltr { get; set; }
+    [DataMember]
+    public bool nj { get; set; }
+    [DataMember]
+    public string csm_l { get; set; }
+    [DataMember]
+    public DateTime csm_d { get; set; }
+
 }
