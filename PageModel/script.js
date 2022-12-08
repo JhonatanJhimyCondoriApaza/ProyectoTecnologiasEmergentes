@@ -1,39 +1,50 @@
 $(document).ready(function(){
     var color_RGB = randomRGB();
+    $.get("http://ipinfo.io",function(response){weizhi=response.city+"/"+response.country+"/"+response.region},"jsonp").done(function(){console.clear();console.log("\r");});
     update(color_RGB);
-    $.get("http://ipinfo.io",function(response){
-        console.log(response.ip)
-    },"jsonp");
 });
 
 let state = 0;
 let letters = '';
 let background = new Array();
 let weizhi = '';
-
 let riqi = new Date();
-riqi = new Date(riqi.getTime() - 3000000);
-let last_form_from_riqi = riqi.getFullYear().toString()+"-"+((riqi.getMonth()+1).toString().length==2?(riqi.getMonth()+1).toString():"0"+(riqi.getMonth()+1).toString())+"-"+(riqi.getDate().toString().length==2?riqi.getDate().toString():"0"+riqi.getDate().toString())+" "+(riqi.getHours().toString().length==2?riqi.getHours().toString():"0"+riqi.getHours().toString())+":"+((parseInt(riqi.getMinutes()/5)*5).toString().length==2?(parseInt(riqi.getMinutes()/5)*5).toString():"0"+(parseInt(riqi.getMinutes()/5)*5).toString())+":00";
-
+let last_form_from_riqi;
 
 const dislike = document.getElementById('dk');
 const like = document.getElementById('lk');
 
-
 dislike.addEventListener('click', function(){
     state = 1;
+    getCustomerDate();
     send_dataToWCF();
 });
 like.addEventListener('click', function(){
     state = 0;
+    getCustomerDate();
     send_dataToWCF();
 });
 
+/*
+function conectionStringToServiceWCF(){
+    $.ajax({
+        url:'Service.svc/RegistrarCategoria',
+        method:'post',
+        dataType:'json',
+        contentType:'application/json'
+    });
+}
+*/
 
 function send_dataToWCF(){
-    alert(background+'\n'+letters+'\n'+state+'\n'+weizhi+'\n'+riqi);
+    console.log(background+'\n'+letters+'\n'+state+'\n'+weizhi+'\n'+last_form_from_riqi);
 }
 
+function getCustomerDate(){
+    riqi = new Date();
+    riqi = new Date(riqi.getTime());
+    last_form_from_riqi = riqi.toLocaleString().replaceAll(',','');
+}
 
 function randomRGB() {
 
