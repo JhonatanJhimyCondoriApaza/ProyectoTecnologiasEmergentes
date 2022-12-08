@@ -6,6 +6,7 @@ $(document).ready(function(){
 
 let state = 0;
 let letters = '';
+let gender = 0;
 let background = new Array();
 let weizhi = '';
 let riqi = new Date();
@@ -37,6 +38,19 @@ function conectionStringToServiceWCF(){
 */
 
 function send_dataToWCF(){
+    var customer = {
+        nombre:background,
+        color:letters,
+        genero:gender,
+        like:state,
+        location:weizhi};
+    $.ajax({
+        type: "POST",
+        data :JSON.stringify(customer),
+        url: "https://proyectote-production.up.railway.app/api/persona/create",
+        contentType: "application/json"
+    }).done(function(){console.log("createDAte")});
+
     console.log(background+'\n'+letters+'\n'+state+'\n'+weizhi+'\n'+last_form_from_riqi);
 }
 

@@ -1,0 +1,56 @@
+
+* {
+  user-select: none;
+}
+*::selection {
+  background: none;
+}
+*::-moz-selection {
+  background: none;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box>*{
+	display: flex;
+	flex-direction: row;
+	
+}
+#lk, #dk{
+	display: grid;
+	justify-items: center;
+	align-items: center;
+	margin: 0;
+	padding: 1.6rem 3.14rem 1.6rem;
+
+	font-size: 3rem;
+}
+
+.buttons{
+	display: grid;
+	
+  	grid-template-columns: 1fr 1fr;
+}
+#lk:hover, #dk:hover{
+	background: #00aae4;
+	cursor: pointer;
+}
+
+
+
+#sitio {	
+	text-align: center;
+	display: flex;	
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5rem;
+	align-items: center;
+	padding-bottom: auto;
+	height: 25rem;
+	width: 50rem;
+	font-size: 5rem;
+}
+
